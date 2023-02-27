@@ -22,6 +22,7 @@ body {
 
 h1 {
   font-size: 51px;
+  color: var(--main-content-color);
 }
 
 h2 {
@@ -136,6 +137,10 @@ footer {
   color: var(--main-white);
 }
 
+.hero-container h1 {
+  color: var(--main-white);
+}
+
 .hero-container_p {
   max-width: 390px;
   font-size: 20px;
@@ -155,7 +160,8 @@ footer {
 }
 
 .exhibits-container h2,
-.news-container h2 {
+.news-container h2,
+.exhibits-container h1 {
   grid-column: -1/1;
   padding: 40px 0px 0px 0px;
   text-align: center;
@@ -213,6 +219,8 @@ footer {
   color: var(--grey-reduced);
   margin: 4px 0 6px 0;
 }
+
+/** Exhibits **/
 
 
 
