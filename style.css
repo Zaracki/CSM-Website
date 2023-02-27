@@ -109,6 +109,13 @@ header {
   z-index: 500;
 }
 
+header a:hover {
+  opacity: 50%;
+}
+
+.active {
+  text-decoration: underline;
+}
 /** Footer **/
 footer {
   color: var(--main-white);
