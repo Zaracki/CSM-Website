@@ -85,7 +85,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: var(--main-white);
   font-size: 20px;
   font-weight: 500;
 }
@@ -157,7 +157,8 @@ footer {
 
 .exhibits-container,
 .explore-container_divide,
-.news-container {
+.news-container,
+.explore-sections {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 1020px;
@@ -203,10 +204,13 @@ footer {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.fa-solid {
+  font-size: 50px;
+}
+
 .fa-children,
 .fa-chalkboard-user,
 .fa-microscope {
-  font-size: 50px;
   margin-top: 70px;
   margin-bottom: 20px;
 }
@@ -218,7 +222,8 @@ footer {
 }
 
 .news-container,
-.explore-container_divide {
+.explore-container_divide,
+.explore-info {
   text-align: start;
 }
 
@@ -230,8 +235,63 @@ footer {
 /** Exhibits **/
 
 
+/** Explore **/
 
+.explore-toptext {
+  text-align: center;
+  max-width: 1020px;
+  margin: 40px auto 70px auto;
+}
 
+.explore-toptext h1 {
+  margin-bottom: 30px;
+}
+
+.explore-info h2 {
+  margin-bottom: 20px;
+}
+
+/** Get Involved **/
+
+.icon-circle {
+  height: 100px;
+  width: 100px;
+  background-color: var(--main-white);
+  border-radius: 50%;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  
+}
+
+.getinvolved-container {
+  background-color: var(--main-content-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 1020px;
+  flex-direction: column;
+  border-radius: 40px;
+}
+
+.getinvolved-text h2,
+.getinvolved-text p {
+  max-width: 845px;
+  color: var(--main-white);
+  margin-bottom: 40px;
+}
+
+.getinvolved-text p {
+  font-size: 24px;
+}
+
+.fa-gift {
+  color: var(--main-content-color);
+}
 
 
 
