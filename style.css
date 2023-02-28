@@ -12,6 +12,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image: linear-gradient(#fefefe, #f7efe5);
+  background-repeat: no-repeat;
 }
 
 :root {
@@ -294,7 +296,11 @@ footer {
 
 .fa-gift,
 .fa-handshake-angle,
-.fa-graduation-cap {
+.fa-graduation-cap,
+.fa-map-location-dot,
+.fa-ticket,
+.fa-clock,
+.fa-address-card {
   color: var(--main-content-color);
 }
 
@@ -303,6 +309,10 @@ footer {
 .visit-info {
   display: flex;
   margin-bottom: 40px;
+}
+
+.visit-info h4 {
+  color: var(--main-content-color);
 }
 
 .fa-map-location-dot,
@@ -338,7 +348,6 @@ footer {
 }
 
 .visit-container {
-  margin 0 0 0 0;
   justify-content: flex-start;
 }
 
@@ -347,7 +356,7 @@ footer {
 
 
 
-@media (max-width: 952px){
+@media (max-width: 1020px){
   .Logo {
     padding-left: 36px;
   }
