@@ -169,7 +169,8 @@ footer {
 
 .exhibits-container h2,
 .news-container h2,
-.exhibits-container h1 {
+.exhibits-container h1,
+.getinvolved-h1 {
   grid-column: -1/1;
   padding: 40px 0px 0px 0px;
   text-align: center;
@@ -199,7 +200,8 @@ footer {
   color: var(--main-white);
 }
 
-.explore-container_divide {
+.explore-container_divide,
+.visit-infoboxes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -253,6 +255,7 @@ footer {
 
 /** Get Involved **/
 
+
 .icon-circle {
   height: 100px;
   width: 100px;
@@ -275,7 +278,7 @@ footer {
   margin: 40px auto;
   max-width: 1020px;
   flex-direction: column;
-  border-radius: 40px;
+  border-radius: 80px;
 }
 
 .getinvolved-text h2,
@@ -289,10 +292,55 @@ footer {
   font-size: 24px;
 }
 
-.fa-gift {
+.fa-gift,
+.fa-handshake-angle,
+.fa-graduation-cap {
   color: var(--main-content-color);
 }
 
+/** Visit **/
+
+.visit-info {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.fa-map-location-dot,
+.fa-ticket,
+.fa-clock,
+.fa-address-card {
+  margin-right: 30px;
+}
+
+.visit-divide {
+  text-align: start;
+}
+
+.opening-info {
+  line-height: 170%;
+}
+
+.visit-infoboxes {
+  max-width: 1020px;
+  margin: auto;
+  grid-gap: 20px;
+}
+
+.visit-text p {
+  font-size: 16px;
+  max-width: 247px;
+  margin: 10px 40px;
+}
+
+.visit-text h4 {
+  color: var(--main-white);
+  margin-top: 5px
+}
+
+.visit-container {
+  margin 0 0 0 0;
+  justify-content: flex-start;
+}
 
 
 
