@@ -55,6 +55,10 @@ p {
   margin-top: 60px;
 }
 
+.cta:hover {
+  opacity: 80%;
+}
+
 /** Header **/
 
 header,
@@ -126,6 +130,26 @@ footer {
   margin-top: auto;
 }
 
+.social-position {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.social-position span {
+  display: none;
+}
+
+.fa-brands {
+  margin: 20px 5px;
+  font-size: 30px;
+  color: var(--main-white);
+}
+
+
 /** Landing Page **/
 
 .hero-banner {
@@ -193,6 +217,12 @@ footer {
   background-color: var(--main-white);
   border: 3px solid var(--main-content-color);
   margin-bottom: 35px;
+}
+
+.cta-exhibit:hover {
+  opacity: 100%;
+  background-color: var(--main-content-color);
+  color: var(--main-white);
 }
 
 .explore-container {
@@ -339,7 +369,7 @@ footer {
 .visit-text p {
   font-size: 16px;
   max-width: 247px;
-  margin: 10px 40px;
+  margin: 10px 40px 20px 40px;
 }
 
 .visit-text h4 {
