@@ -192,11 +192,6 @@ footer {
   margin-top: 10px;
 }
 
-.hero-container h1,
-.hero-container_p {
-  background-color: var(--main-content-color);
-}
-
 .cta-container_small-screen {
   display: none;
 }
