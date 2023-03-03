@@ -125,7 +125,7 @@ header {
 }
 
 header a:hover {
-  opacity: 50%;
+  text-decoration: underline;
 }
 
 .active {
@@ -188,8 +188,13 @@ footer {
 .hero-container_p {
   max-width: 390px;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
   margin-top: 10px;
+}
+
+.hero-container h1,
+.hero-container_p {
+  background-color: var(--main-content-color);
 }
 
 .cta-container_small-screen {
