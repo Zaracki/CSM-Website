@@ -161,7 +161,7 @@ footer {
 /** Landing Page **/
 
 .hero-banner {
-  background-image: url(/Images/Landing-Page/Hero_image_1.png);
+  background-image: url(/Images/Landing-Page/Homepage-banner-1.png);
   background-size: cover;
   min-height: 500px;
   max-width: 1440px;
@@ -173,7 +173,7 @@ footer {
 .hero-container {
   position: relative;
   text-align: left;
-  max-width: 423px;
+  max-width: 480px;
   margin: 0 210px;
   top: 125px;
   display: block;
@@ -187,7 +187,7 @@ footer {
 .hero-container_p {
   max-width: 390px;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 10px;
 }
 
