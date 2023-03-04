@@ -4,11 +4,10 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  
+  font-family: "inter", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-  font-family: "inter", Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -420,6 +419,10 @@ footer {
     margin-right: 36px;
   }
 
+  .cta {
+    margin-top: 30px;
+  }
+
   .cta-container_small-screen {
     text-align: center;
     display: block;
@@ -520,6 +523,10 @@ footer {
     width: 100%;
   }
 
+  .hero-container_p {
+    max-width: 250px;
+  }
+
   .exhibits-container,
   .explore-container_divide,
   .news-container,
@@ -531,4 +538,6 @@ footer {
   .hero-banner {
     min-height: 150px;
   }
+
+
 }
