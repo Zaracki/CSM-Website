@@ -6,7 +6,7 @@ A (fake) museum website with information about exhibits and visitation.
 
 ## Description
 
-Square Eyes is the first website I have created as part of a cross course project at Noroff as a Front-end Developer. I made a Wireframe, logo and design in Figma, and built the site using HTML and CSS. Also used Javascript to fetch from the WooCommerce API to show the products/films and it´s content like descriptions and prices. The was made to be responsive and the user is able to go from picking a movie all the way to checkout.
+Community Science Museum is a webssite created as my semester project at Noroff as a Font-end developer. There was predetermant what text, images and pages that where going to be made in the assignement. I made Wireframe, logo, design and prototype in Figma for this project. The site was built using only HTML and CSS. The site was made responsive for all devices. And was amde to give the visitors information about the museum and its exhibits and how they can buy tickets and its services.
 
 
 ## Built With
@@ -21,7 +21,7 @@ CSS
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/Zaracki/CA-CSM-Square-eyes.git
+git clone https://github.com/Zaracki/CSM-Website.git
 ```
 
 2. Install the dependencies:
