@@ -1,4 +1,4 @@
-# Square Eyes
+# Community Science Museum
 
 ![image](<Images/Skjermbilde 2023-10-11 kl. 11.17.44.png>)
 
