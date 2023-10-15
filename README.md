@@ -6,7 +6,7 @@ A (fake) museum website with information about exhibits and visitation.
 
 ## Description
 
-Community Science Museum is a webssite created as my semester project at Noroff as a Font-end developer. There was predetermant what text, images and pages that where going to be made in the assignement. I made Wireframe, logo, design and prototype in Figma for this project. The site was built using only HTML and CSS. The site was made responsive for all devices. And was amde to give the visitors information about the museum and its exhibits and how they can buy tickets and its services.
+Community Science Museum is a website created as my semester project at Noroff as a Font-end developer. There was predetermant what text, images and pages that where going to be made in the assignement. I made Wireframe, logo, design and prototype in Figma for this project. The site was built using only HTML and CSS. The site was made responsive for all devices. And was amde to give the visitors information about the museum and its exhibits and how they can buy tickets and its services.
 
 
 ## Built With
